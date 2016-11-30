@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/^(node_modules|css-library|map-graphic-test|map-metric-test|metrics|mobone|opendesk-collection|opendesk-ntorque|opendesk-static|opendesk-torque-engine|PhotoSwipe|pyramid_torque_engine|venv|webpack-od-setup|angular-leaflet-directive|styleguide_v1|parker_test|testapp|testapp2)$/);
+        return !name.match(/^(node_modules|test|db|bin|cache|lib|tmp)$/);
     };
 });
